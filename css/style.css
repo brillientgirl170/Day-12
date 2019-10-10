@@ -1,0 +1,60 @@
+.my-style{
+    height: 500px;
+    border: 1px solid red;
+}
+.class-one{
+    height: 200px;
+    width: 200px;
+    background: red;
+    border-radius: 100px;
+}
+.class-two{
+    height: 100px;
+    width: 200px;
+    background: green;
+    border-radius: 100px 100px 0px 0px;
+}
+.class-three{
+    height: 100px;
+    width: 200px;
+    background: blue;
+    border-radius: 0px 0px 100px 100px;
+}
+.class-four{
+    height: 200px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 100px 0px 100px 0px;
+}
+.firstBox{
+    text-align: center;
+}
+#div{
+    height: 200px;
+    width: 200px;
+}
+
+#gradient-color-font h1{
+    font-size: 5vw;
+    position: absolute;
+    top: 90%;
+    left: 40%;
+    transform: translate(-40%, -90%);
+    background: linear-gradient(to left, #f8d7da, #e83e8c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.paragraph{
+    font-size: 2vw;
+}
+
+.main-image{
+    height: 350px;
+    width: 450px;
+    border: 1px solid;
+}
+.sub-image{
+    height: 60px;
+    width: 109px;
+    border: 1px solid;
+}

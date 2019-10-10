@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial scale=1">
+        <title>Javascript practice</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+<!--        <link rel="stylesheet" href="css/style.css">-->
+    </head>
+    <style>
+        .main-image{
+            height: 350px;
+            width: 450px;
+            border: 1px solid;
+        }
+        .sub-image{
+            height: 60px;
+            width: 109px;
+            border: 1px solid;
+        }
+    </style>
+
+    <body>
+
+<!--        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, non?</p>-->
+<!--        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, non?</p>-->
+<!--        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, non?</p>-->
+<!--        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, non?</p>-->
+<!--        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, non?</p>-->
+<!--        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, non?</p>-->
+<!--        <button type="button" id="btn">Click Me</button>-->
+<!--        <div id="div"></div>-->
+
+        <img src="images/doctors.jpg" alt="" class="main-image" id="mainImage">
+        <br/>
+        <img src="images/team1.jpg" alt="" class="sub-image" id="img1">
+        <img src="images/team2.jpg" alt="" class="sub-image" id="img2">
+        <img src="images/team3.jpg" alt="" class="sub-image" id="img3">
+        <img src="images/team5.jpg" alt="" class="sub-image" id="img4">
+
+        </div>
+
+
+
+        <script>
+
+            var firstImageValue= document.getElementById('img1');
+            firstImageValue.onmouseover= function () {
+                var subImageValue= document.getElementById('img1').getAttribute('src');
+                    document.getElementById('mainImage').setAttribute('src', subImageValue);
+            };
+            var firstImageValue= document.getElementById('img2');
+            firstImageValue.onmouseover= function () {
+                var subImageValue= document.getElementById('img2').getAttribute('src');
+                document.getElementById('mainImage').setAttribute('src', subImageValue);
+            };
+            var firstImageValue= document.getElementById('img3');
+            firstImageValue.onmouseover= function () {
+                var subImageValue= document.getElementById('img3').getAttribute('src');
+                document.getElementById('mainImage').setAttribute('src', subImageValue);
+            };
+            var firstImageValue= document.getElementById('img4');
+            firstImageValue.onmouseover= function () {
+                var subImageValue= document.getElementById('img4').getAttribute('src');
+                document.getElementById('mainImage').setAttribute('src', subImageValue);
+            };
+
+
+
+        </script>
+
+        <script src="js/jquery-3.4.1.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/my-script.js"></script>
+    </body>
+</html>
